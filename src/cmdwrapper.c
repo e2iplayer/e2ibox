@@ -39,6 +39,7 @@ static void *read_text_file(const char *pPath)
 int cmdwrapper_main(int argc, char **argv)
 {
     if (argc == 1) {
+        printf("Version: 2\n");
         printf("%s input_file args_splitter [priority]\n", argv[0]);
         printf("  input_file: text file with command\n");
         printf("  args_split: used arguments splitter\n");
